@@ -106,6 +106,7 @@ class _NotesaddState extends State<Notesadd> {
                       child: InkWell(
                         onTap: () async {
                          await adddata();
+
                           // await FirebaseFirestore.instance.collection("notes").add({})
                           Navigator.of(context).push(MaterialPageRoute(
                             builder: (context) => Homepg(),
